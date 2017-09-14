@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@media screen{
 .topImage {
 	background-image: url(../images/cassette.jpg);
 	height: 300px;
@@ -7,6 +8,7 @@
 	background-size: 80%;
 	
 }
+	}
 .newsTitle {
 	padding-top: 40px;
 	font-family: "annie-use-your-telescope";
@@ -14,7 +16,7 @@
 	font-weight: 400;
 }
 
-@media (max-width:767px){
+@media screen and (max-width:767px){
 .topImage {
 	background-size:22em;
 	background-position: bottom;
@@ -30,8 +32,5 @@
 	}
 }
 
-@media (max-width:768px){
-body {
-	background-color: grey;
-}
-}
+
+
