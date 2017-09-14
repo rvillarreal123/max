@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.topImage {
+	background-image: url(../images/cassette.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+	
+}
+.newsTitle {
+	padding-top: 40px;
+	font-family: "annie-use-your-telescope";
+	font-style: normal;
+	font-weight: 400;
+}
+
+@media (max-width:767px){
+.topImage {
+	background-size:22em;
+	background-position: bottom;
+}
+	.newsTitle{
+		font-size: 3em;
+	}
+.mobilecenter {
+	text-align: center;
+}
+	footer{
+		display: none;
+	}
+}
+
+@media (max-width:768px){
+body {
+	background-color: grey;
+}
+}
