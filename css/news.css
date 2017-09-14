@@ -21,14 +21,17 @@
 	background-size:22em;
 	background-position: bottom;
 }
-	.newsTitle{
-		font-size: 3em;
+.newsTitle{
+	font-size: 3em;
 	}
 .mobilecenter {
 	text-align: center;
 }
 	footer{
-		display: none;
+	display: none;
+	}
+	body{
+		background-color: white;
 	}
 }
 
